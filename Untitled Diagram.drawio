@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-11T02:46:26.278Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="smNyqZ34SPLqx-Ri0WAK" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-11T02:52:25.119Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="bCQd9dQy_KDA1LuOqoC0" version="21.3.8" type="github">
   <diagram name="Page-1" id="Y-24xmNLAxgRaoytal5C">
     <mxGraphModel dx="2210" dy="1895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -214,16 +214,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="JD_kTPQFQz83Q4ljXOue-21" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="-115" y="750" width="425" height="300" as="geometry" />
+          <mxGeometry x="-115" y="720" width="425" height="330" as="geometry" />
         </mxCell>
         <mxCell id="JD_kTPQFQz83Q4ljXOue-22" value="&lt;div align=&quot;left&quot;&gt;La &lt;b&gt;Gestion de Solicitudes&lt;/b&gt; se relaciona con la accion de aprobar o denegar solicitudes de inscripcion de los equipos que desean participar en un torneo. Las decisiones dependen completamente del administrador.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-87.5" y="830" width="367.5" height="60" as="geometry" />
+          <mxGeometry x="-87.5" y="900" width="367.5" height="60" as="geometry" />
         </mxCell>
         <mxCell id="JD_kTPQFQz83Q4ljXOue-23" value="&lt;div align=&quot;left&quot;&gt;El &lt;b&gt;Proceso de Aceptacion&lt;/b&gt; es una etapa en la que se queda a la espera de la Gestion de Solicitudes, tarea que depende netamente del administrador del torneo.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-87" y="760" width="367" height="50" as="geometry" />
+          <mxGeometry x="-87.5" y="840" width="367" height="50" as="geometry" />
         </mxCell>
         <mxCell id="JD_kTPQFQz83Q4ljXOue-24" value="&lt;div align=&quot;left&quot;&gt;El &lt;b&gt;Limite de Inscritos&lt;/b&gt; es la cantidad maxima de equipos que se pueden inscribir en un torneo. Si no se llega al numero requerido de inscritos antes de la fecha de inicio del torneo, el torneo quedara cancelado.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="-87" y="910" width="367" height="70" as="geometry" />
+          <mxGeometry x="-86" y="970" width="367" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="JD_kTPQFQz83Q4ljXOue-25" value="DEFINICIONES DE ETAPAS" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-7.5" y="730" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="JD_kTPQFQz83Q4ljXOue-26" value="&lt;div align=&quot;left&quot;&gt;Los &lt;b&gt;torneos&lt;/b&gt; a los que tiene acceso la entidad &lt;b&gt;TORNEO, &lt;/b&gt;son los torneos creados por la misma entidad, es decir, que no puede acceder a torneos de otras entidades o torneos que no han sido creados por la misma.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-86" y="770" width="366" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
