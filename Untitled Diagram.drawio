@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-11T16:33:48.645Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="Og-P_PpLx4E-nv4mGEJK" version="21.3.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-06-11T16:34:21.896Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="QwCzbE4aZIfdn7nNSgJY" version="21.3.8" type="github" pages="3">
   <diagram name="inscripcion" id="Y-24xmNLAxgRaoytal5C">
     <mxGraphModel dx="2210" dy="1895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -524,7 +524,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="0_wm-EIDD5g1hLT-IUJf-41" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;ESTADOS DE TORNEO&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Periodo de inscripcion:&lt;/b&gt; etaoa en la que los equipos se registran y el torneo responsable gestiona las solicitudes de inrgeso al torneo&lt;br&gt;&lt;br&gt;&lt;b&gt;Transicion a gestion de partidos (opcional):&lt;/b&gt; ocurre cuando el periodo de inscripcion termino, los equipos estan completos, pero aun no se ha confirmado el paso a la etapa de Gestion de Partidos.&lt;br&gt;&lt;br&gt;&lt;b&gt;Gestion de partidos:&lt;/b&gt; Se crean las llaves que definiran los equipos que se van a enfrentar entre si. Cada fecha de partido debe ser definida y actualizada previo al siguiente encuentro&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;Pre-inicio:&lt;/b&gt; ventana de tiempo entre la gestion de partidos y el inicio del torneo para que los equipos puedan organizarse correctamente previo al inicio del torneo.&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;b&gt;Torneo iniciado:&lt;/b&gt; indica que el torneo ya empezo sus partidos correspondientes&lt;br&gt;&lt;br&gt;&lt;b&gt;Torneo finalizado:&lt;/b&gt; indica que el torneo ya finalizo todos sus partidos&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-1170" y="1030" width="600" height="250" as="geometry" />
+          <mxGeometry x="-1170" y="1030" width="600" height="280" as="geometry" />
         </mxCell>
         <mxCell id="0_wm-EIDD5g1hLT-IUJf-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0_wm-EIDD5g1hLT-IUJf-3" target="0_wm-EIDD5g1hLT-IUJf-34">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
