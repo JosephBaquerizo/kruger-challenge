@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-11T19:05:54.929Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="RzFGgg4lVRHSHwMbXxjK" version="21.3.8" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2023-06-11T20:55:38.776Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="SzFOnVRCosxlbUEhbZUW" version="21.3.8" type="github" pages="5">
   <diagram name="inscripcion" id="Y-24xmNLAxgRaoytal5C">
     <mxGraphModel dx="2210" dy="1895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -761,6 +761,65 @@
             <mxPoint x="-660" y="610" as="sourcePoint" />
             <mxPoint x="-520" y="580" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="X34FKQwIkfi2bjCOPwlA" name="DB">
+    <mxGraphModel dx="1360" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z_XEf1eZWHTdwKtfLYQc-1" value="USUARIOS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="120" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z_XEf1eZWHTdwKtfLYQc-2" value="JUGADORES" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="250" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z_XEf1eZWHTdwKtfLYQc-3" value="TORNEO_ADMIN" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="250" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z_XEf1eZWHTdwKtfLYQc-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z_XEf1eZWHTdwKtfLYQc-1" target="z_XEf1eZWHTdwKtfLYQc-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="50" y="200" as="sourcePoint" />
+            <mxPoint x="100" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_XEf1eZWHTdwKtfLYQc-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z_XEf1eZWHTdwKtfLYQc-1" target="z_XEf1eZWHTdwKtfLYQc-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="210" as="sourcePoint" />
+            <mxPoint x="110" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="z_XEf1eZWHTdwKtfLYQc-8" value="TORNEO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="420" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z_XEf1eZWHTdwKtfLYQc-9" value="EQUIPO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="620" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z_XEf1eZWHTdwKtfLYQc-10" value="TORNEO_JUGADOR&lt;br&gt;&lt;br&gt;id&lt;br&gt;Rol&lt;br&gt;correo&lt;br&gt;&lt;div&gt;clave&lt;/div&gt;&lt;div&gt;fecha de creacion&lt;/div&gt;&lt;div&gt;ultimo update&lt;/div&gt;&lt;div&gt;info extra...&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="35" y="410" width="130" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="z_XEf1eZWHTdwKtfLYQc-11" value="TORNEO_ADMIN&lt;br&gt;&lt;br&gt;id&lt;br&gt;Rol&lt;br&gt;correo&lt;br&gt;clave&lt;br&gt;fecha de creacion&lt;br&gt;ultimo update&lt;br&gt;info extra..." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="195" y="410" width="120" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="z_XEf1eZWHTdwKtfLYQc-12" value="TORNEO&lt;br&gt;&lt;br&gt;&lt;div&gt;torneo_admin_id&lt;/div&gt;&lt;div&gt;fecha de creacion&lt;br&gt;ultimo update&lt;/div&gt;&lt;div&gt;fecha inicio&lt;/div&gt;&lt;div&gt;fecha fin&lt;br&gt;&lt;/div&gt;&lt;div&gt;fecha inicio inscripcion&lt;/div&gt;&lt;div&gt;fecha fin inscripcion&lt;/div&gt;&lt;div&gt;fecha inicio gestion sol&lt;br&gt;&lt;/div&gt;&lt;div&gt;fecha fin gestion sol&lt;/div&gt;&lt;div&gt;fecha inicio gestion partidos&lt;/div&gt;&lt;div&gt;fecha fin gestion partidos&lt;/div&gt;&lt;div&gt;fecha inicio pre inicio&lt;/div&gt;&lt;div&gt;fecha fin pre inicio&lt;br&gt;&lt;/div&gt;&lt;div&gt;estado&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="380" y="280" width="180" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="z_XEf1eZWHTdwKtfLYQc-13" value="PARTIDO&lt;br&gt;&lt;br&gt;&lt;div&gt;torneo_id&lt;br&gt;&lt;/div&gt;&lt;div&gt;fecha partido&lt;/div&gt;&lt;div&gt;equipo1_id&lt;/div&gt;&lt;div&gt;equipo2_id&lt;/div&gt;&lt;div&gt;resultado1&lt;/div&gt;&lt;div&gt;resultado2&lt;/div&gt;&lt;div&gt;estado&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="780" y="280" width="180" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="z_XEf1eZWHTdwKtfLYQc-14" value="PARTIDO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="820" y="160" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z_XEf1eZWHTdwKtfLYQc-16" value="EQUIPO&lt;br&gt;&lt;br&gt;id&lt;br&gt;id_torneo&lt;br&gt;nombre&lt;br&gt;cantidad_jugadores&lt;br&gt;partidos_ganados&lt;br&gt;partidos_empatados&lt;br&gt;partidos_perdidos&lt;br&gt;goles_hecho&lt;br&gt;goles_recibidos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="580" y="280" width="180" height="310" as="geometry" />
+        </mxCell>
+        <mxCell id="z_XEf1eZWHTdwKtfLYQc-17" value="JUGADOR_EQUIPO" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="160" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z_XEf1eZWHTdwKtfLYQc-18" value="JUGADOR_EQUIPO&lt;br&gt;&lt;br&gt;&lt;div&gt;id&lt;/div&gt;&lt;div&gt;id_partido&lt;br&gt;nombre&lt;br&gt;posicion&lt;br&gt;goles&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="980" y="280" width="180" height="310" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
