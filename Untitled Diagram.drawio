@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-06-11T16:34:21.896Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="QwCzbE4aZIfdn7nNSgJY" version="21.3.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-06-11T16:35:45.767Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:109.0) Gecko/20100101 Firefox/114.0" etag="StKMffPk9HHRtpGW-PFz" version="21.3.8" type="github" pages="3">
   <diagram name="inscripcion" id="Y-24xmNLAxgRaoytal5C">
     <mxGraphModel dx="2210" dy="1895" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -307,6 +307,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ACa7nJiacGw2iBH8feaN-22" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#CCCCCC;" vertex="1" parent="1">
+          <mxGeometry x="-1190" y="30" width="1430" height="1320" as="geometry" />
+        </mxCell>
         <mxCell id="w3qiOhdghA_4KW7LXUzp-1" value="&lt;b&gt;INICIO&lt;/b&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-530" y="120" width="120" height="50" as="geometry" />
         </mxCell>
@@ -499,7 +502,7 @@
         <mxCell id="0_wm-EIDD5g1hLT-IUJf-34" value="Se espera confirmacion para entrar a gestion de partidos" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="-160" y="860" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="0_wm-EIDD5g1hLT-IUJf-36" value="&lt;div align=&quot;left&quot;&gt;El periodo de &lt;b&gt;Gestion de Partidos&lt;/b&gt; inicia cuando ocurran una de las siguientes 2 situaciones:&lt;br&gt;&lt;br&gt;&lt;b&gt;1.&lt;/b&gt; Se completan los equipos y se confirma a proseguir con el periodo de Gestion de Partidos&lt;br&gt;&lt;br&gt;&lt;b&gt;2. &lt;/b&gt;Se termina el periodo de inscripcion, se completo el numero de equipos requeridos para iniciar el torneo y se confirma a proseguir con el periodo de Gestion de Partidos.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="0_wm-EIDD5g1hLT-IUJf-36" value="&lt;div align=&quot;left&quot;&gt;El periodo de &lt;b&gt;Gestion de Partidos&lt;/b&gt; inicia cuando ocurran una de las siguientes 2 situaciones:&lt;br&gt;&lt;br&gt;&lt;b&gt;1.&lt;/b&gt; Se completan los equipos y se confirma a proseguir con el periodo de Gestion de Partidos&lt;br&gt;&lt;br&gt;&lt;b&gt;2. &lt;/b&gt;Se termina el periodo de inscripcion, se completo el numero de equipos requeridos para iniciar el torneo y se confirma a proseguir con el periodo de Gestion de Partidos.&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-1170" y="840" width="330" height="160" as="geometry" />
         </mxCell>
         <mxCell id="0_wm-EIDD5g1hLT-IUJf-37" value="Inicia periodo de Gestion de Partidos" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -523,7 +526,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="0_wm-EIDD5g1hLT-IUJf-41" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;ESTADOS DE TORNEO&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Periodo de inscripcion:&lt;/b&gt; etaoa en la que los equipos se registran y el torneo responsable gestiona las solicitudes de inrgeso al torneo&lt;br&gt;&lt;br&gt;&lt;b&gt;Transicion a gestion de partidos (opcional):&lt;/b&gt; ocurre cuando el periodo de inscripcion termino, los equipos estan completos, pero aun no se ha confirmado el paso a la etapa de Gestion de Partidos.&lt;br&gt;&lt;br&gt;&lt;b&gt;Gestion de partidos:&lt;/b&gt; Se crean las llaves que definiran los equipos que se van a enfrentar entre si. Cada fecha de partido debe ser definida y actualizada previo al siguiente encuentro&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;Pre-inicio:&lt;/b&gt; ventana de tiempo entre la gestion de partidos y el inicio del torneo para que los equipos puedan organizarse correctamente previo al inicio del torneo.&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;b&gt;Torneo iniciado:&lt;/b&gt; indica que el torneo ya empezo sus partidos correspondientes&lt;br&gt;&lt;br&gt;&lt;b&gt;Torneo finalizado:&lt;/b&gt; indica que el torneo ya finalizo todos sus partidos&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+        <mxCell id="0_wm-EIDD5g1hLT-IUJf-41" value="&lt;div align=&quot;left&quot;&gt;&lt;b&gt;ESTADOS DE TORNEO&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;Periodo de inscripcion:&lt;/b&gt; etaoa en la que los equipos se registran y el torneo responsable gestiona las solicitudes de inrgeso al torneo&lt;br&gt;&lt;br&gt;&lt;b&gt;Transicion a gestion de partidos (opcional):&lt;/b&gt; ocurre cuando el periodo de inscripcion termino, los equipos estan completos, pero aun no se ha confirmado el paso a la etapa de Gestion de Partidos.&lt;br&gt;&lt;br&gt;&lt;b&gt;Gestion de partidos:&lt;/b&gt; Se crean las llaves que definiran los equipos que se van a enfrentar entre si. Cada fecha de partido debe ser definida y actualizada previo al siguiente encuentro&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;b&gt;Pre-inicio:&lt;/b&gt; ventana de tiempo entre la gestion de partidos y el inicio del torneo para que los equipos puedan organizarse correctamente previo al inicio del torneo.&lt;br&gt;&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;br&gt;&lt;b&gt;Torneo iniciado:&lt;/b&gt; indica que el torneo ya empezo sus partidos correspondientes&lt;br&gt;&lt;br&gt;&lt;b&gt;Torneo finalizado:&lt;/b&gt; indica que el torneo ya finalizo todos sus partidos&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="-1170" y="1030" width="600" height="280" as="geometry" />
         </mxCell>
         <mxCell id="0_wm-EIDD5g1hLT-IUJf-42" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0_wm-EIDD5g1hLT-IUJf-3" target="0_wm-EIDD5g1hLT-IUJf-34">
@@ -669,6 +672,9 @@
             <mxPoint x="-380" y="1240" as="sourcePoint" />
             <mxPoint x="-280" y="1240" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="ACa7nJiacGw2iBH8feaN-23" value="TORNEO" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=1" vertex="1" parent="1">
+          <mxGeometry x="-1190" y="30" width="80" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
